@@ -1,0 +1,129 @@
+/* Colors and fonts */
+
+body{
+	background:rgb(230,230,230);
+	color:rgb(50,50,50);
+	font-family:Lora, serif;
+	font-size:17px;
+	
+}
+
+.text-black{
+	color:black;
+}
+
+#logo{
+	width:40px;
+}
+
+h1, h2, h3 { /*common for all the headers*/ 
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+
+h1{
+	color: grey;
+	font-weight:100;
+	letter-spacing::10px;
+	font-size:40px;
+	text-transform: uppercase;
+}
+
+h2{
+	color:grey;
+	font-size:14px;
+	font-weight:bold;
+}
+
+h3{
+	color:grey
+	font-size:14px;
+	font-weight: bold;
+}
+
+a{ /*format of the link*/
+
+	text-decoration:none;
+	color:#ff8000;
+
+}
+a:hover { /*when you click on the link*/
+	color:black;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+}  
+
+.btn-blue {
+	background-color: #ff8000; 
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue: hover{
+	background-color: black;
+	color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display:inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	font-size:50px;
+	color: rgb(230,230,230);
+}
+
+#introduction p {
+	margin-bottom:40px;
+
+}
+
+
